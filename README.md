@@ -17,6 +17,8 @@ The final dataset contains over 60.000 individual watch sales. <br>
 | **Random Forest**  | **92.65%**  | **92.68%**  |
 | Gradient Boosting  | 89.54%  |   |
 
+![Feature importance](https://github.com/Ortgies/chrono/blob/main/graphics/regression.png)
+
 ## Model classification
 ### Features
 | Model  | R² | R² (tuned) |
@@ -25,6 +27,8 @@ The final dataset contains over 60.000 individual watch sales. <br>
 | KNeighborsClassifier  | 53.67%  |  |
 | **RandomForest**  | 60.21%  | **60.79%**  |
 | Gradient Boosting  | **61.69%**  |   |
+
+![Feature importance](https://github.com/Ortgies/chrono/blob/main/graphics/classification.png)
 
 ### Picture
 | Model  | R² | R² (tuned) |
