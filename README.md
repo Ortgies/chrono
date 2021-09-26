@@ -45,6 +45,8 @@ Some of the most imporant features for classification are the watch diameter, th
 ![Feature importance](https://github.com/Ortgies/chrono/blob/main/graphics/classification.png)
 
 ### Picture
+Based on recognized words in the watch picture, I am able to predict the brand with an accuracy of over 56% using a Random Forest model. <br>
+
 | Model  | R² | R² (tuned) |
 | ------------- | ------------- | ------------- |
 | LogisticRegression  | 56.56%  |   |
@@ -52,6 +54,9 @@ Some of the most imporant features for classification are the watch diameter, th
 | **RandomForest**  | 55.24%  | **56.57%**  |
 | Gradient Boosting  | **56.76%**  |   |
 ### Ensemble
+When combining the feature- and picture based regression, the accuracy of classification can be significantly improved. <br>
+A stacking classifier, using a logisitic regression is able to predict the correct watch brand in almost 3 out of 4 watches. <br>
+
 | Model  | R² |
 | ------------- | ------------- |
 | Voting Classifier| 71.10%  |
