@@ -4,6 +4,11 @@ I use this dataset to develop two models: <br>
 - A regression model to predict watch prices based on its characteristics
 - A classification model to predict the watch brand based on its characteristics and image data
 
+# Motivation
+I wanted to showcase my understanding of regression and classification on a custom dataset. <br>
+Instead of using one of the popular datasets like real estate prices and car insurance, it was important to me to examine a problem that hasnt been 'solved' before. <br>
+For this reason I collected a dataset on watch features and prices. As a small child I was already fascinated with mechanical watch movements, gears and springs. Later, as a finance student, I got interested in the business side as well. The watch market is very unusual and defies many of the assumptions economists have about markets. <br>
+
 # Data collection
 I set up a webscraping algorithm to collect data about recent watch offerings on Chrono24 using Selenium. <br>
 The final dataset contains over 60.000 individual watch sales. <br>
