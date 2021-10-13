@@ -29,7 +29,7 @@ Unsurprisingly, the brand and model are the main determinants of a watches price
 
 ![Feature importance](https://github.com/Ortgies/chrono/blob/main/graphics/regression.png)
 
-## Model classification
+## Brand classification
 I try out two approaches to classify watch brands. <br>
 The first is based on the watch characteristics and the second on the picture accompanying the offer. <br>
 In the final step I combine the results of both models into a final predictor. <br>
